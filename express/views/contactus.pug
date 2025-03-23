@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    style
+        include contactus.css
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mynerve&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <img src="../static/logo.png">
+            <span>Medica</span>
+            <p>Hospital Lahore</p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/home.pug">Home</a></li>
+                <li><a href="/AboutUs.pug">About Us</a></li>
+                <li><a href="/OurDoctors.pug">Our Doctors</a></li>
+                <li><a href="/Appointment.pug">Appointment</a></li>
+                <li><a href="/onlinereport.pug">Online Report</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <a href="/contactus.pug"><button class="btn">Contact us</button></a>
+        </div>
+    </nav>
+    <section>
+        <h1>Contact us</h1>
+        <div class="container">
+            <div class="box-1">
+                <form action="/contactus.pug" method="post" id="contact">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input name="name" type="text" class="name" id="name" placeholder="Ahmad Mazhar" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input name="phone" type="phone" class="name" id="phone" placeholder="xxxx-xxxxxxx" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input name="email" type="email" class="name" id="email" placeholder="xxx@gmail.com" required>
+                    </div>
+
+                    <div>
+                        <label for="message">Do you have any message for us?</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Let us know How we can help..." required></textarea>
+                    </div>
+
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="box-2">
+                <h3>HOSPITAL LOCATION</h3>
+                <p>Medica Hospital Lahore </p>
+                <p>D1 Commercial, Nespak Society Phase-I, Lahore</p>
+                <br>
+                <p>Tel: +92 42 111-227-333</p>
+                <p>Mobile: 0310 7777024</p>
+                <br>
+                <h3>CORPORATE OFFICE LOCATION</h3>
+                <p>Gate Healthcare 1 Pak (Pvt) Ltd</p>
+                <br>
+                <p>Medica Hospital Lahore</p>
+                <p>D1 Commercial, Nespak Society Phase-I, Lahore</p>
+                <br>
+                <h3>Office Hours</h3>
+                <p>Monday - Friday</p>
+                <p>9 AM - 6 PM</p>
+                <p>info.lahore@medica.pk</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

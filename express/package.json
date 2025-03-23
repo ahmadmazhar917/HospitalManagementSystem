@@ -1,0 +1,20 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "for database project",
+  "main": "hms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+}
+
+nav .left span {
+    position: absolute;
+    top: 4px;
+    left: 65px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav .left p{
+    display: inline block;
+    position: absolute;
+    top: 12px;
+    left: 65px;
+    width: 220px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.mid {
+    display: block;
+    width: 41%;
+    margin: 45px auto;
+    /* border: 2px solid red; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 0px 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li a:hover {
+    color: rgb(102, 149, 191);
+}
+
+.right {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    display: inline-block;
+}
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding: 13px 6px;
+    display: inline-block;
+    width: 120px;
+    border: none;
+    background-color: rgb(80, 113, 159);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(116, 148, 192);
+}
+section{
+    height: 1000px;
+}
+section h1{
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 33px;
+}
+section .container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container form label{
+    display: block;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+section .container form input{
+    width: 500px;
+    height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 2px 6px;
+    display: block;
+}
+
+section .container form input#date{
+    width: 497px;
+    height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 2px 6px;
+    display: block;
+    margin: 0px auto;
+}
+
+section .container form textarea{
+    width: 500px;
+    height: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 10px 6px;
+    display: block;
+}
+
+section button{
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 4px 5px;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    width: 175px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+section button:hover{
+    background-color:  rgb(213, 222, 234);
+}

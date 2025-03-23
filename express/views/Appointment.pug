@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    style
+        include Appointment.css
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mynerve&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <img src="../static/logo.png">
+            <span>Medica</span>
+            <p>Hospital Lahore</p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/home.pug">Home</a></li>
+                <li><a href="/AboutUs.pug">About Us</a></li>
+                <li><a href="/OurDoctors.pug">Our Doctors</a></li>
+                <li><a href="/Appointment.pug">Appointment</a></li>
+                <li><a href="/onlinereport.pug">Online Report</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <a href="/contactus.pug"><button class="btn">Contact us</button></a>
+        </div>
+    </nav>
+    <section>
+        <h1>Book an Appointment</h1>
+        <div class="container">
+            <form action="/Appointment.pug" method="post" id="appoint">
+                <div>
+                    <label for="name">Name:</label>
+                    <input name="name" type="text" class="name" id="name" placeholder="Ahmad Mazhar" required>
+                </div>
+                <div>
+                    <label for="cnic">CNIC Number:</label>
+                    <input name="cnic" type="text" class="name" id="cnic" placeholder="xxxxx-xxxxxxx-x" required>
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <input name="address" type="text" class="name" id="address" placeholder="House number - Block - Town" required>
+                </div>
+                <div>
+                    <label for="city">City:</label>
+                    <input name="city" type="text" class="name" id="city" placeholder="Lahore" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input name="phone" type="phone" class="name" id="phone" placeholder="xxxx-xxxxxxx" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input name="email" type="email" class="name" id="email" placeholder="xxx@gmail.com" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" class="name" id="message" cols="30" rows="10" placeholder="State your appointment request here with preferred date below. Our representative will contact you as soon as possible." required></textarea>
+                </div>
+                <div>
+                    <label for="date">Date:</label>
+                    <input name="date" type="date" class="name" id="date" required>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

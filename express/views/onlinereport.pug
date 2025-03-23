@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Report</title>
+    style
+        include  onlinereport.css
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mynerve&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="../static/logo.png">
+            <span>Medica</span>
+            <p>Hospital Lahore</p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/home.pug">Home</a></li>
+                <li><a href="/AboutUs.pug">About Us</a></li>
+                <li><a href="/OurDoctors.pug">Our Doctors</a></li>
+                <li><a href="/Appointment.pug">Appointment</a></li>
+                <li><a href="/onlinereport.pug">Online Report</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <a href="/contactus.pug"><button class="btn">Contact us</button></a>
+        </div>
+    </nav>
+    <section>
+        <h1>Medical Report</h1>
+        <div class="container">
+
+            <div id="box-1">
+                <label for="invoice">Invoice No:</label>
+                <input type="text" aria-required="true" placeholder="34212">
+            </div>
+    
+            <div class="box-2">
+                <label for="access">Access Code:</label>
+                <input type="text" class="name" id="access" placeholder="AB324ZXQ">
+            </div>
+        </div>
+
+        <button>Submit</button>
+    </section>
+</body>
+</html>
