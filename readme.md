@@ -1,5 +1,10 @@
 # Hospital Management System
 
-I developed this system as a Database Systems' course project of my Bachelors degree which displays Doctors' information and stores patients' information for an appointment. There is also a facility of online report checkup. The frontend part of the system was built using vanilla HTML, CSS and JavaScript and the robust backend was programmed using Node.js, Express.js and MongoDB.
+- Developed as a project for a Database Systems course during Bachelor's degree.
+- Displays information about doctors.
+- Stores patient information for appointments.
+- Includes facility for online report checkups.
+- Front end built using vanilla HTML, CSS, and JavaScript.
+- Back end programmed using Node.js, Express.js, and MongoDB.
 
 <img src="express/static/homePage.png"/>
